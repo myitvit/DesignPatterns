@@ -1,0 +1,9 @@
+Observer Pattern
+
+In a Publish/Subsribe relationships, Button is publisher and Event Handlers are subsribers
+
+Observer Consequences:
+1) Observer may not recieve notifications
+2) We may get repeated notifications
+3) We may recieve notifications very quickly
+4) Strong references may stop Garbage Collector from disposing objects

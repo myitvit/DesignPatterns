@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{7203833A-A6B1-4775-B171-6B994255968A}"
+	ProjectSection(SolutionItems) = preProject
+		Observer\Observer Comments.txt = Observer\Observer Comments.txt
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.WPF.Event", "Observer\Observer.WPF.Event\Observer.WPF.Event.csproj", "{8324A903-185B-429A-8243-946BB3A7AB47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.WPF.Event", "Observer\Observer.WPF.Event\Observer.WPF.Event.csproj", "{8324A903-185B-429A-8243-946BB3A7AB47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
