@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{72
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.WPF.Event", "Observer\Observer.WPF.Event\Observer.WPF.Event.csproj", "{8324A903-185B-429A-8243-946BB3A7AB47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.WPF.StockTicker", "Observer\Observer.WPF.StockTicker\Observer.WPF.StockTicker.csproj", "{8050E11F-D192-4DAA-A501-8939E0975B29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,12 +22,17 @@ Global
 		{8324A903-185B-429A-8243-946BB3A7AB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8324A903-185B-429A-8243-946BB3A7AB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8324A903-185B-429A-8243-946BB3A7AB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8050E11F-D192-4DAA-A501-8939E0975B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8050E11F-D192-4DAA-A501-8939E0975B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8050E11F-D192-4DAA-A501-8939E0975B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8050E11F-D192-4DAA-A501-8939E0975B29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8324A903-185B-429A-8243-946BB3A7AB47} = {7203833A-A6B1-4775-B171-6B994255968A}
+		{8050E11F-D192-4DAA-A501-8939E0975B29} = {7203833A-A6B1-4775-B171-6B994255968A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF5EE5AC-C3AB-458A-83F8-1E4D7C072E25}
