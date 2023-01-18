@@ -10,7 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{72
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.WPF.Event", "Observer\Observer.WPF.Event\Observer.WPF.Event.csproj", "{8324A903-185B-429A-8243-946BB3A7AB47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.WPF.StockTicker", "Observer\Observer.WPF.StockTicker\Observer.WPF.StockTicker.csproj", "{8050E11F-D192-4DAA-A501-8939E0975B29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.WPF.StockTicker", "Observer\Observer.WPF.StockTicker\Observer.WPF.StockTicker.csproj", "{8050E11F-D192-4DAA-A501-8939E0975B29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F74EEEE-0291-494A-B813-20B52B556AF3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
